@@ -1,0 +1,26 @@
+  <ion-view class="lan-view">
+  <ion-content class="lan-content" scroll="true" >
+    <div class="bar bar-header">
+      <h1 class="title">select language</h1>
+    </div>
+    <div class="content">
+      <div class="row row-center box-height">
+          <div class="col"> 
+            <select id="sel-lan" ng-model="my_language" name="my_language">
+              <option value="ml">Malayalam</option>
+              <option value="">Hindi</option>
+              <option value="en">English</option>
+              <option value="">Spanish</option>
+              <option value="">Russian</option>
+              <option value="">Arabic</option>
+              <option value="">Japanese</option>
+              <option value="">Italian</option>
+              <option value="">French</option>
+            </select>
+           <button ng-click="lang_click()"></button>
+          </div>
+      </div>  
+    </div>
+  </ion-content>
+  </ion-view>
+

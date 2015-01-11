@@ -1,0 +1,36 @@
+  <ion-view class="home-view">
+  <ion-content class="home-content" scroll="true" >
+    <div class="bar bar-header item-input-inset">
+      <label class="item-input-wrapper">
+        <i class="icon ion-ios7-search placeholder-icon"></i>
+        <input type="search" placeholder="Search">
+      </label>
+      <button class="button button-clear">
+        Cancel
+      </button>
+    </div>
+    <div class="content">
+      <div class="avatar-container">
+  
+        <!-- chatbox -->
+
+        <div class="avatar-box" ng-repeat="contact in contacts" ng-click="open_chat(contact)">
+          <div class="avatar-content">
+            <div class="avatar-pic">
+              <img src="img/jennifer.jpg" alt="">
+            </div>
+            <div class="avatar-det">
+              <div class="avatar-name">{{ contact.name }}</div>
+              <div class="last-msg">{{ contact.last_message }}</div>
+            </div>
+            <div class="time-ago">12pm</div>
+            <div class="clear"></div>
+          </div>
+        </div>
+
+        <!-- chatbox -->
+      </div>
+    </div>
+  </ion-content>
+  </ion-view>
+

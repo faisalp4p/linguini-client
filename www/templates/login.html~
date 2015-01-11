@@ -1,0 +1,16 @@
+<ion-view class="login-view">
+  <ion-content scroll="false" >
+    <div class="login-input-div-outer">
+      <div class="row row-center box-height">
+          <div class="col"> 
+            <button class="fb-Btn" ng-click="facebook_login()">
+            Log in with Facebook<i class="ion-social-facebook"></i></button>
+          </div>
+      </div>  
+      <!-- <div class="fb-Btn">
+        Log in with Facebook<i class="ion-social-facebook"></i>
+      </div> -->
+    </div>
+  </ion-content>
+</ion-view>
+

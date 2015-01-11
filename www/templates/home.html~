@@ -1,0 +1,31 @@
+  <ion-view class="home-view">
+  <ion-content class="home-content" scroll="true" >
+    <div class="bar bar-header">
+      <h1 class="title">chats</h1>
+       <button class="button icon ion-plus-round"></button>
+    </div>
+    <div class="content">
+      <div class="avatar-container">
+  
+        <!-- chatbox -->
+
+        <div class="avatar-box" ng-repeat="contact in contacts" ng-click="open_chat(contact)">
+          <div class="avatar-content">
+            <div class="avatar-pic">
+              <img src="img/jennifer.jpg" alt="">
+            </div>
+            <div class="avatar-det">
+              <div class="avatar-name">{{ contact.name }}</div>
+              <div class="last-msg">{{ contact.last_message }}</div>
+            </div>
+            <div class="time-ago">12pm</div>
+            <div class="clear"></div>
+          </div>
+        </div>
+
+        <!-- chatbox -->
+      </div>
+    </div>
+  </ion-content>
+  </ion-view>
+

@@ -1,0 +1,28 @@
+  <ion-view class="lan-view">
+  <ion-content class="lan-content" scroll="false" >
+    <div class="bar bar-header">
+      <h1 class="title">select language</h1>
+    </div>
+    <div class="content">
+      <div class="row row-center box-height">
+          <div class="col"> 
+            <input class="user-id" type="text" placeholder="username" ng-model="username">
+            <input class="user-name" type="text" placeholder="Full Name" ng-model="name">
+           <select id="sel-lan" ng-model="my_language" name="my_language" ng-model="lang">
+             <option value="ml">Malayalam</option>
+             <option value="hi">Hindi</option>
+             <option value="en">English</option>
+             <option value="sp">Spanish</option>
+             <option value="ru">Russian</option>
+             <option value="ar">Arabic</option>
+             <option value="ja">Japanese</option>
+             <option value="it">Italian</option>
+             <option value="fr">French</option>
+           </select>
+           <button class="button icon ion-chevron-right" ng-click="click_lang()"></button>
+          </div>
+      </div>  
+    </div>
+  </ion-content>
+  </ion-view>
+

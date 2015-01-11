@@ -1,0 +1,65 @@
+
+@import "ionic/ionic";
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'ion icon';
+    src: url('../fonts/ionicons.ttf');
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+*{
+    font-family: 'Open Sans Light', sans-serif;
+    
+}
+.hide{
+    display:none;
+}
+.show{
+    display:inline-block;
+}
+ion-side-menu .list{
+    margin-top:50px;
+}
+ion-header-bar.bar-subheader{
+    background-color:whitesmoke !important;
+    height:50px;
+        input{
+            padding:0px 10px !important;
+            border-radius:2px;
+            }
+    border-bottom:1px solid #ccc;
+}
+.truncate {
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+.font-14{
+    font-size:14px;
+}
+.margin-null{
+    margin:0px !important;
+}
+/* for elop */
+.slider-div{
+    width:100%;
+    height:100vh;
+
+}
+.slider-div img{
+	width:100%;
+	height:100%;
+}
+
+}
+.slider-pager .slider-pager-page.active{
+color:#fff !important;
+}
+/*http://codepen.io/rdelafuente/pen/lteGc*/
+    

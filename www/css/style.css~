@@ -1,0 +1,38 @@
+/* Empty. Add your own CSS if you like */
+
+.msg-box-true {
+        background-color: rgba(46, 182, 230, 0.22);
+        padding: 15px;
+        margin-right: 25px;
+        margin-top: 10px;
+        color: #3A3A3A;
+        position: relative; }
+.msg-box-false {
+        background-color: rgba(46, 182, 230, 0.62);
+        padding: 15px;
+        margin-top: 10px;
+        margin-left: 25px;
+        color: #3A3A3A;
+        position: relative; }
+.msg-box-true::after {
+        content: "";
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        bottom: 0;
+        left: 4px;
+        margin-left: -10px;
+        border-bottom: 10px solid #CEECF7;
+        margin-top: -2px;
+        z-index: 1; }
+.msg-box-false::after {
+        content: "";
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        bottom: 0;
+        right: -6px;
+        margin-left: -10px;
+        border-bottom: 10px solid #7BD0ED;
+        margin-top: -2px;
+        z-index: 1; }
